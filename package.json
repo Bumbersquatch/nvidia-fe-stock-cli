@@ -1,5 +1,5 @@
 {
-  "name": "rtx3000-fe-stock-cli",
+  "name": "@rossocodes/nvidia-fe-stock-cli",
   "version": "0.0.1",
   "description": "Check the UK stock levels of Nvidia RTX 3000 series founders edition GPU's and sends an email alert when the specified model is in stock",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "author": "Alex Ross (https://rosso.codes)",
   "license": "MIT",
   "bin": {
-    "rtx3000-fe-stock-cli": "./index.js"
+    "nvidia-fe-stock-cli": "./index.js"
   },
   "dependencies": {
     "axios": "^0.21.0",
